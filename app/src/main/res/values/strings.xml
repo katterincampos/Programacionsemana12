@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Programacionsemana12</string>
+    <string name="direccion">Direccion</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="c_digo">Código</string>
+    <string name="regresar">Regresar</string>
+    <string name="dui">Dui</string>
+    <string name="guardar">Guardar</string>
+    <string name="lista_de_contactos">Lista de contactos</string>
+
 </resources>
