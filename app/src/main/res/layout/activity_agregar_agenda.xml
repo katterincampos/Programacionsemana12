@@ -16,46 +16,50 @@
         android:ems="10"
         android:hint="@string/c_digo"
         android:inputType="textPersonName"
-        android:text="@string/c_digo"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@id/txtnombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
+        tools:ignore="MissingConstraints"
+        app:layout_constraintVertical_bias="0.472"
+        />
 
     <EditText
         android:id="@+id/txtnombre"
-        android:layout_width="278dp"
+        android:layout_width="283dp"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="nombre"
         android:inputType="textPersonName"
-        android:text="@string/nombre"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@id/txtdireccion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
         app:layout_constraintVertical_bias="0.738" />
 
     <EditText
         android:id="@+id/txtdireccion"
-        android:layout_width="278dp"
-        android:layout_height="wrap_content"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/direccion"
         android:inputType="text"
-        android:text="@string/direccion"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@id/txtTelefono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.345"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.816" />
+        app:layout_constraintVertical_bias="0.816"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/txtTelefono"
@@ -64,13 +68,14 @@
         android:ems="10"
         android:hint="@string/telefono"
         android:inputType="phone"
-        android:text="@string/telefono"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@id/txtdui"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
         app:layout_constraintVertical_bias="0.77" />
 
     <EditText
@@ -80,17 +85,18 @@
         android:ems="10"
         android:hint="@string/dui"
         android:inputType="phone"
-        android:text="@string/dui"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
         app:layout_constraintVertical_bias="0.48" />
 
     <Button
         android:id="@+id/btnGuardar"
-        android:layout_width="276dp"
+        android:layout_width="283dp"
         android:layout_height="48dp"
         android:text="@string/guardar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -99,11 +105,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtTelefono"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
         app:layout_constraintVertical_bias="0.641" />
 
     <Button
         android:id="@+id/btnRegresar"
-        android:layout_width="276dp"
+        android:layout_width="283dp"
         android:layout_height="48dp"
         android:text="@string/regresar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,5 +119,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtTelefono"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
         app:layout_constraintVertical_bias="0.714" />
 </androidx.constraintlayout.widget.ConstraintLayout>
